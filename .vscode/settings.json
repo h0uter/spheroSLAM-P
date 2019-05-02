@@ -1,0 +1,6 @@
+{
+  "python.pythonPath": "C:\\ProgramData\\Anaconda2\\python.exe",
+  "python.linting.pylintEnabled": false,
+  "python.linting.pep8Enabled": true,
+  "python.linting.enabled": true
+}

@@ -317,7 +317,7 @@ if __name__ == '__main__':
 
     fs = FastSLAM(initial_particles,robot_width,minimum_correspondence_likelihood,measurement_stddev,xstddev,ystddev,
                  control_speed_factor,control_head_factor, sample_time)
-    for i in xrange(lposes-1):
+    for i in xrange(poses-1):
         '''Use of entire trajectory for the correction step (Rao-Blackwellization)''' 
         '''Need to discount the old measurements orelse heavy computational power will be required'''
         '''Create a new landmark only when observed multiple times to avoid the landmark formed near the edge of the wall'''
